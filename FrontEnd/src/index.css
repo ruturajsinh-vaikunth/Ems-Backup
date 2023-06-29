@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tox-notification{
+  display: none !important;
+}
+
+.containerEvent{
+  position: relative;
+}
+
+.containerEvent img {
+  width: 100%;
+  height: auto;
+}
+
+.containerEvent .leftbutton {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  border: 1px solid #000;
+  background-color: #fdfdfd;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.containerEvent .leftbutton:hover{
+  background-color: #8B5CF6;
+  color: white;
+}
+
+.containerEvent .rightbutton {
+  position: absolute;
+  top: 20%;
+  right: -5%;
+  border: 1px solid #000;
+  color: "#8B5CF6";
+  background-color: #fdfdfd;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.containerEvent .rightbutton:hover {
+  background-color:  rgb(245, 98, 98);;
+  color: white;
+}
+
+.row .tasknoteDetails{
+  background-color: "#F5F5F5";
+}
+
+.text-edit{
+  font-weight: bold;
+}
+
+.text-edit:hover{
+  color: #8B5CF6;
+} 
+
+.text-delete{
+  font-weight: bold;
+}
+
+.text-delete:hover{
+  color: red;
+}
+
+.filescard{
+  width: 100%;
+  height: 9rem;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.filescard:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
